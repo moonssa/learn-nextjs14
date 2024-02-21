@@ -1,0 +1,11 @@
+.movie {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.movie img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
