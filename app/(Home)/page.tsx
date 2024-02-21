@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 async function getMovies() {
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  // await new Promise((resolve) => setTimeout(resolve, 1000));
   const json = await (await fetch(API_URL)).json();
   return json;
 }
